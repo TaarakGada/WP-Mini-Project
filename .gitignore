@@ -25,9 +25,3 @@ docs/
 
 # Ignore .env files
 .env
-
-# Ignore PNG files
-*.png
-*.mp4
-*.jpeg
-*.jpg
