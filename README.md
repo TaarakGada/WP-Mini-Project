@@ -1,2 +1,2 @@
-# WP-Mini-Project
+# WP_Mini_Project
  

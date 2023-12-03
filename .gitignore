@@ -1,30 +1,33 @@
-# Gradle files
-.gradle/
-build/
+# Compiled Object files
+*.o
+*.obj
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Log/OS Files
-*.log
+# Compiled Static libraries
+*.a
+*.lib
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Executables
+*.exe
 
-# IntelliJ
-*.iml
-.idea/
+# DUB
+.dub
+docs.json
+__dummy.html
+docs/
 
-# Keystore files
-*.jks
-*.keystore
+# Code coverage
+*.lst
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Ignore .env files
+.env
 
-# Android Profiling
-*.hprof
+# Ignore PNG files
+*.png
+*.mp4
+*.jpeg
+*.jpg

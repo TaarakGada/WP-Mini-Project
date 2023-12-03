@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tpage1 {
+            width: 400px;
+            height: 100px;
+            /* border: 2px solid black; */
+            align-self: center;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.8em;
+            font-weight: bolder;
+            padding-top: 55px;
+        }
+
+        /* containers the three reviews place row wise */
+
+
+        * {
+            margin: 0px;
+            /* padding: 0px; */
+            box-sizing: border-box;
+            /* font-family: 'Poppins', sans-serif; */
+            scroll-behavior: smooth;
+            overflow: hidden;
+        }
+
+        :root {
+            --blue1: #3428d5;
+            --blue2: #481dcb;
+            --light-blue: #3464d4;
+            --dark-blue: #0d1c40;
+            --dark-blue2: #121e3d;
+            --nav: #897fbf;
+            --font: #d3ceea;
+        }
+
+        #tpage2 {
+            display: flex;
+            /* new */
+            justify-content: center;
+            margin-bottom: 50px;
+            width: 75vw;
+            margin-left: 160px;
+        }
+
+        .person {
+            /* containers that hold person ka reviews */
+            margin: 30px 7px;
+            text-align: center;
+        }
+
+        .personimg {
+            width: 72px;
+        }
+
+        .personname {
+            font-weight: bolder;
+            font-size: 0.9em;
+            margin: 10px 30px;
+        }
+
+        .personwork {
+            color: rgb(83, 81, 81);
+            font-size: 0.85em;
+        }
+
+        .review {
+            text-align: left;
+            color: rgb(83, 81, 81);
+            font-size: 0.85em;
+            margin: 10px 30px;
+        }
+
+        #tpage3 {
+            /* last contact us block that is purple */
+            background-color: var(--dark-blue);
+            height: 370px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #lastline {
+            color: var(--font);
+            font-size: 2.1em;
+            align-self: center;
+            font-weight: bolder;
+            margin-top: 130px;
+        }
+
+        #contacts {
+            display: flex;
+            color: var(--font);
+            justify-content: center;
+        }
+
+        #email,
+        #number {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        #tpage3 img {
+            padding-right: 20px;
+            width: 40px;
+        }
+
+        #tpage1 {
+            margin-left: 35vw;
+        }
+
+        .tpage {
+            background-color: var(--font);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tpage" id="tpage">
+        <!-- entire third page -->
+
+        <div id="tcontainer">
+            <!-- main container of third page -->
+
+            <div id="tpage1">
+                <!-- top review container -->
+                Our Reviews
+            </div>
+
+            <div id="tpage2">
+                <!-- contains the three reviews placed row wise -->
+                <div class="person">
+                    <!-- person one -->
+                    <img src="prof1.png" alt="cant load" class="personimg">
+                    <div class="personname">Alexander</div>
+                    <div class="personwork">Web developer</div>
+                    <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto neque non
+                        consequuntur a recusandae harum velit, sunt consequatur!</div>
+                </div>
+                <div class="person">
+                    <!-- person two -->
+                    <img src="prof2.png" alt="cant load" class="personimg">
+                    <div class="personname">Jeet Patel</div>
+                    <div class="personwork">Marketing student</div>
+                    <div class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet veniam vero ad
+                        fugiat magni incidunt neque corrupti, beatae consequuntur illo.</div>
+                </div>
+                <div class="person">
+                    <!-- person one -->
+                    <img src="prof3.png" alt="cant load" class="personimg">
+                    <div class="personname">Jay</div>
+                    <div class="personwork">Machine learning student</div>
+                    <div class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto neque non
+                        consequuntur a recusandae harum velit, sunt consequatur!</div>
+                </div>
+
+
+
+            </div>
+            <div id="tpage3">
+                <!-- contact us purple part -->
+                <div id="lastline">Enroll in our courses NOW!</div>
+
+                <div id="contacts">
+                    <!-- contains email and phone number -->
+                    <div id="email"><img src="mail.png" alt="no"> GetEdu.com</div>
+                    <div id="number"><img src="call.png" alt="never">9123888092</div>
+                </div>
+
+
+            </div>
+        </div>
+</body>
+
+</html>
